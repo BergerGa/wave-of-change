@@ -1,3 +1,7 @@
+html{
+    background: #f3f2f2;
+}
+
 .emeraldbay{
     width: 250px;
     height: auto; 
@@ -11,4 +15,27 @@
 .suttonsbay{
     width: 250px;
     height: auto; 
+}
+
+.main{
+    width: 250px;
+    height: auto;
+}
+
+.event{
+    padding: 10px;
+    border-bottom: 5px dotted #ccc;
+}
+
+#events{
+    padding:10px;
+    border-top: 5px dotted #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    display: flex;
+    background: #61bbcb;
+    color: #353535;
 }
