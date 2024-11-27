@@ -1,5 +1,13 @@
 html{
     background: #f3f2f2;
+    color: #264348;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #212121;
+    background: #61bbcb;
 }
 
 .emeraldbay{
@@ -17,9 +25,14 @@ html{
     height: auto; 
 }
 
+
+
 .main{
-    width: 250px;
+    display: block;
+    width: 600px;
     height: auto;
+    margin: 0 auto;
+
 }
 
 .event{
@@ -35,7 +48,42 @@ html{
 }
 
 .navigation{
-    display: flex;
-    background: #61bbcb;
     color: #353535;
+}
+
+.navigation li {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.pcontainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.plastics{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.sofar {
+    flex: 1;
+}
+
+.hcontainer{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.healthy{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px;  
+}
+
+.mission {
+    flex: 1;
 }
