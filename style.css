@@ -13,16 +13,22 @@ header {
 .emeraldbay{
     width: 250px;
     height: auto; 
+    float: left;
+    margin: 20px;
 }
 
 .congaree{
     width: 250px;
     height: auto;  
+    float: left;
+    margin: 20px;
 }
 
 .suttonsbay{
     width: 250px;
     height: auto; 
+    float: left;
+    margin: 20px;
 }
 
 
@@ -56,34 +62,43 @@ header {
     justify-content: space-around;
 }
 
-.pcontainer{
+.container{
     display: flex;
     align-items: center;
-    gap: 20px;
-}
-
-.plastics{
-    width: 250px;
-    height: auto; 
-    border-radius: 10px; 
-}
-
-.sofar {
-    flex: 1;
-}
-
-.hcontainer{
-    display: flex;
-    align-items: center;
-    gap: 20px; 
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .healthy{
     width: 250px;
     height: auto; 
-    border-radius: 10px;  
+    border-radius: 10px; 
+    margin-right: 20px;
 }
 
-.mission {
-    flex: 1;
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 1.5;
+}
+
+
+.plastics{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px; 
+    float: right;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.sofar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 1.5;
+    margin-top: 50px;
 }
