@@ -1,14 +1,19 @@
 html{
     background: #f3f2f2;
-    color: #264348;
+    color:#2c2f61 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     color: #212121;
-    background: #61bbcb;
+    background: #e1d1b6;
+    border: #353535;
+    border-radius: 10px; 
 }
+
+
 
 .emeraldbay{
     width: 250px;
@@ -35,7 +40,7 @@ header {
 
 .main{
     display: block;
-    width: 600px;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
 
@@ -43,12 +48,12 @@ header {
 
 .event{
     padding: 10px;
-    border-bottom: 5px dotted #ccc;
+    border-bottom: 5px double #ccc;
+
 }
 
 #events{
     padding:10px;
-    border-top: 5px dotted #ccc;
     display: flex;
     flex-direction: column;
 }
@@ -101,4 +106,22 @@ header {
     height: 100%;
     line-height: 1.5;
     margin-top: 50px;
+}
+
+.profile{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px; 
+    margin: 20px;
+    float: right;  
+}
+
+h1{
+    padding: 10px;
+    font-family: cursive;
+}
+
+h2{
+    border-bottom: 5px double #ccc;
+    font-family: cursive;
 }
