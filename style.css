@@ -1,25 +1,123 @@
-html{
+html {
     background: #f3f2f2;
     color:#2c2f61 ;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+
+p {
+    line-height: 1.4em;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #212121;
     background: #e1d1b6;
-    border: #353535;
-    border-radius: 10px; 
+    border: 2px solid #353535;
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;
+    padding: 20px;
 }
 
+.rounded{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #212121;
+    background: #e1d1b6;
+    border: 2px solid #353535;
+    border-radius: 10px; 
+    padding: 20px;
+}
 
+header h1 {
+    font-family: cursive;
+}
+
+header .navigation{
+    color:#353535;
+}
+
+header .navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a{
+    color:#353535;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+/* Main*/
+
+.main{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+#pitch{
+        padding: 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.healthy{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px; 
+    margin-right: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.flex-container img{
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+
+}
+
+.mission::after, .sofar::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+h2{
+    border-bottom: 5px double #ccc;
+    font-family: cursive;
+}
+
+.profile{
+    width: 250px;
+    height: auto; 
+    border-radius: 10px; 
+    margin: 20px;
+    float: right;  
+}
 
 .emeraldbay{
     width: 250px;
     height: auto; 
     float: left;
     margin: 20px;
+    border-radius: 10px; 
 }
 
 .congaree{
@@ -27,6 +125,7 @@ header {
     height: auto;  
     float: left;
     margin: 20px;
+    border-radius: 10px; 
 }
 
 .suttonsbay{
@@ -34,16 +133,7 @@ header {
     height: auto; 
     float: left;
     margin: 20px;
-}
-
-
-
-.main{
-    display: block;
-    width: 1000px;
-    height: auto;
-    margin: 0 auto;
-
+    border-radius: 10px; 
 }
 
 .event{
@@ -58,70 +148,8 @@ header {
     flex-direction: column;
 }
 
-.navigation{
-    color: #353535;
-}
-
-.navigation li {
-    display: inline-block;
-    justify-content: space-around;
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-}
-
-.healthy{
-    width: 250px;
-    height: auto; 
-    border-radius: 10px; 
-    margin-right: 20px;
-}
-
-.mission{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    line-height: 1.5;
-}
-
-
-.plastics{
-    width: 250px;
-    height: auto; 
-    border-radius: 10px; 
-    float: right;
-    margin-top: 50px;
-    margin-left: 10px;
-}
-
-.sofar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    line-height: 1.5;
-    margin-top: 50px;
-}
-
-.profile{
-    width: 250px;
-    height: auto; 
-    border-radius: 10px; 
-    margin: 20px;
-    float: right;  
-}
-
 h1{
     padding: 10px;
     font-family: cursive;
 }
 
-h2{
-    border-bottom: 5px double #ccc;
-    font-family: cursive;
-}
