@@ -153,3 +153,19 @@ h1{
     font-family: cursive;
 }
 
+/* Media Queries for responsiveness */
+
+/* Tablet and larger mobile devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
