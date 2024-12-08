@@ -7,7 +7,7 @@ html {
 
 p {
     line-height: 1.4em;
-
+    font-size: 16px;
 }
 
 header {
@@ -101,6 +101,7 @@ h2{
     border-bottom: 5px double #ccc;
     font-family: cursive;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .profile{
