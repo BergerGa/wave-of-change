@@ -38,8 +38,14 @@ header h1 {
     font-size: 36px;
 }
 
+header .navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 header .navigation li {
-    display: inline-block;
     margin-right: 20px;
 }
 
@@ -51,6 +57,31 @@ header .navigation li {
 .navigation a:hover{
     text-decoration: underline;
 }
+
+/* Media Queries for responsiveness */
+
+/* Tablet and larger mobile devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+    }
+    header .navigation ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
 
 /* Main*/
 
@@ -153,19 +184,3 @@ h1{
     font-family: cursive;
 }
 
-/* Media Queries for responsiveness */
-
-/* Tablet and larger mobile devices */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column; 
-        text-align: center;
-    }
-}
-
-/* For mobile devices */
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-}
